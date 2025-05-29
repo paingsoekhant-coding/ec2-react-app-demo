@@ -15,7 +15,6 @@ This guide walks you through deploying a React app (built with Vite) on an AWS E
 
 ## 1. 🧱 Create a React App with Vite
 
-```bash
 npm create vite@latest my-react-app -- --template react
 cd my-react-app
 npm install
