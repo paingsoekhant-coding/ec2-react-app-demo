@@ -14,11 +14,12 @@ This guide walks you through deploying a React app (built with Vite) on an AWS E
 ---
 
 ## 1. 🧱 Create a React App with Vite
-
+```bash
 npm create vite@latest my-react-app -- --template react
 cd my-react-app
 npm install
 npm run build
+```
 
 ##  2. 🚪 Log in to AWS Console
 
@@ -37,7 +38,7 @@ npm run build
    - Example: `my-ec2-instance`
 
    ### 📦 Amazon Machine Image (AMI):
-   - Choose: **Ubuntu Server 20.04 LTS (Free tier eligible)**
+   - Choose: **Ubuntu Server 24.04 LTS (Free tier eligible)**
 
    ### 📈 Instance Type:
    - Select: `t2.micro` (Free tier eligible)
@@ -72,6 +73,7 @@ npm run build
 
 ```bash
 chmod 400 your-key.pem
+```
 
 
 
