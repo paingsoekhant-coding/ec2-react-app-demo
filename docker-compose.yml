@@ -3,4 +3,4 @@ services:
   app:
     build: .
     ports:
-      - "3000:80"
+      - "80:80" #for nginx -"3000:80" <= for development React app

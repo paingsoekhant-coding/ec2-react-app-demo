@@ -83,6 +83,8 @@ sudo apt install git
 sudo apt install docker.io
 sudo apt install docker-compose
 git clone https://github.com/paingsoekhant-coding/ec2-react-app-demo
+cd project 
+sudo docker-compose up --build 
 ```
 
 
