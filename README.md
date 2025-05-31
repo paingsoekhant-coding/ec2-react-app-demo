@@ -1,5 +1,10 @@
 # 🚀 Deploy React App on AWS EC2 (Vite + NGINX)
 
+#### Mobile View
+![MobileView](./img/ss1.jpg)
+#### Web View
+![WebView](./img/ss2.png)
+
 This guide walks you through deploying a React app (built with Vite) on an AWS EC2 instance using NGINX.
 
 ---
