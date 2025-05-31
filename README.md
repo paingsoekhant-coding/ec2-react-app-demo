@@ -20,6 +20,7 @@ cd my-react-app
 npm install
 npm run build
 ```
+Build Dockerfile & Docker-compose.yml 
 
 ##  2. 🚪 Log in to AWS Console
 
@@ -73,7 +74,17 @@ npm run build
 
 ```bash
 chmod 400 your-key.pem
+ssh -i keypair.pem ubuntu@ip_address
 ```
+## 6. Then Run 
+```bash
+sudo apt update
+sudo apt install git 
+sudo apt install docker.io
+sudo apt install docker-compose
+git clone https://github.com/paingsoekhant-coding/ec2-react-app-demo
+```
+
 
 
 
